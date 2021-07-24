@@ -4,7 +4,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import springfox.documentation.builders.ApiInfoBuilder;
 import springfox.documentation.builders.PathSelectors;
-import springfox.documentation.builders.RequestHandlerSelectors;
+// import springfox.documentation.builders.RequestHandlerSelectors;
 import springfox.documentation.service.ApiInfo;
 import springfox.documentation.service.Contact;
 import springfox.documentation.spi.DocumentationType;
@@ -20,9 +20,9 @@ public class SwaggerConfig {
     private static final String BASE_PACKAGE = "com.bootcamp.beerapi.controller";
     private static final String API_TITLE = "Beer Stock API";
     private static final String API_DESCRIPTION = "REST API for beer stock management";
-    private static final String CONTACT_NAME = "Rodrigo Peleias";
-    private static final String CONTACT_GITHUB = "https://gtihub.com/rpeleias";
-    private static final String CONTACT_EMAIL = "rodrigo.peleis@gmail.com";
+    private static final String CONTACT_NAME = "Matheus Jacobina";
+    private static final String CONTACT_GITHUB = "https://github.com/matheusjacobina-tech";
+    private static final String CONTACT_EMAIL = "matheus.jj91@gmail.com";
 
     @Bean
     public Docket api() {
